@@ -4,7 +4,7 @@ const axios = require('axios');
 
 const bot = new Telegraf(process.env.TOKEN_BOT);
 
-bot.start((ctx) => ctx.reply("Hey, Welcome to Vivek-bot, Know Everthing about your fav movies. ?"));
+bot.start((ctx) => ctx.reply("Hey, Welcome to Vivek-bot, Know Everthing about your fav movies by typing command `/search`"));
 
 
 // Use bot.command to handle a specific command, e.g., /search
